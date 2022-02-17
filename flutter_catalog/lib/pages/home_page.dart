@@ -4,6 +4,8 @@ class HomePage extends StatelessWidget {
   int days = 30;
   String name = "Coderpur";
 
+  HomePage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
