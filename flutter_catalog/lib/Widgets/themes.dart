@@ -10,7 +10,7 @@ class MyTheme {
         elevation: 0.0,
         iconTheme: const IconThemeData(color: Colors.black),
         toolbarTextStyle: Theme.of(context).textTheme.bodyText2,
-        titleTextStyle: Theme.of(context).textTheme.headline5,
+        titleTextStyle: Theme.of(context).textTheme.headline6,
       ));
 
   static ThemeData darkTheme(BuildContext context) => ThemeData(
