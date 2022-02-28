@@ -8,6 +8,7 @@ class ItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return Card(
       child: ListTile(
         onTap: () {
@@ -15,7 +16,7 @@ class ItemWidget extends StatelessWidget {
         },
         leading: Image.network(item.image),
         title: Text(item.name),
-        subtitle: Text(item.dsec),
+        subtitle: Text(item.desc),
         trailing: Text(
           "\$${item.price}",
           textScaleFactor: 1.5,

@@ -1,0 +1,69 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "name":"iPone 12 Pro",
+            "desc": "Apple iPone 12th generation",
+            "price": 999,
+            "color": "#33505a",
+            "image":"https://appleshop.com.pk/wp-content/uploads/2020/10/iphone-12-pro-max.jpg"
+        },
+        {
+            "id":2,
+            "name":"Pixel 5",
+            "desc": "Google pixel 5th generation",
+            "price": 699,
+            "color": "#00ac51",
+            "image":"https://m.media-amazon.com/images/I/81-fNmQqlLL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 3,
+            "name":"Mi Mackbook Air",
+            "desc": "Apple Mackbook air with apple silicon",
+            "price": 1099,
+            "color": "#e0bfae",
+            "image":"https://cdn.vox-cdn.com/thumbor/8nKDePx7X7J01w1SXf-hv-DuZWc=/0x0:2040x1358/1720x0/filters:focal(0x0:2040x1358):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/22048042/vpavic_4291_20201113_0337_Edit.jpg"
+        },
+        {
+            
+            "id": 4,
+            "name":"iPad Pro Apple",
+            "desc": "iPad Pro 2021 generation",
+            "price":1199,
+            "color": "#544ee4",
+            "image":"https://m.media-amazon.com/images/I/81Y5WuARqpS._AC_SL1500_.jpg"
+        },
+        {
+            "id": 5,
+            "name":"Goolge Pixel 4",
+            "desc": "Google pixel 5th generation",
+            "price": 899,
+            "color": "#e334e9",
+            "image":"https://m.media-amazon.com/images/I/71Ns3Z6KFcL._AC_SL1500_.jpg"
+        },
+        {
+            "id": 6,
+            "name":"iPone 13 Pro",
+            "desc": "Apple 13 Pro 2021 edition  ",
+            "price": 799,
+            "color": "#f73984",
+            "image":"https://www.notebookcheck.net/typo3temp/_processed_/6/b/csm_4_to_3_Teaser_Apple_iPhone_13_Pro_bde30ec4f8.jpg"
+        },
+        {
+            "id": 7,
+            "name":" Galaxy S21 Ultra ",
+            "desc": "Samsung Galaxy S21 Ultra 2021 edition",
+            "price": 1299,
+            "color": "#1c1c1",
+            "image":"https://cdn.dxomark.com/wp-content/uploads/medias/post-73433/galaxys21_ultra-2048x1536-1.jpg"
+        },
+        {
+            "id": 8,
+            "name":"Galaxy S21",
+            "desc": "Samsung Galaxy S21 2021 edition",
+            "price": 1199,
+            "color": "#7c95eb",
+            "image":"https://galaxy.pk/wp-content/uploads/2021/09/samsung-galaxy-s21-2.jpg"
+        }
+    ]
+}
