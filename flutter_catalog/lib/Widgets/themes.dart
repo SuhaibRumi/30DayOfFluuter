@@ -18,6 +18,6 @@ class MyTheme {
       );
 
   // Colors
-  static Color creamColor = const Color.fromARGB(255, 87, 82, 82);
+  static Color creamColor = const Color.fromARGB(255, 243, 243, 243);
   static Color darkBulishColor = const Color.fromARGB(184, 38, 4, 78);
 }
