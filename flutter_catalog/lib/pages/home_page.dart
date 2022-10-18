@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_catalog/Utils/routes.dart';
 import 'package:flutter_catalog/Widgets/themes.dart';
 import 'package:flutter_catalog/models/catalog.dart';
 import 'package:velocity_x/velocity_x.dart';
@@ -41,22 +41,22 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: MyTheme.creamColor,
+        backgroundColor: context.canvasColor,
         floatingActionButton: FloatingActionButton(
-          onPressed: () {},
-          child: const Icon(CupertinoIcons.cart),
+          onPressed: () => Navigator.pushNamed(context, MyRoutes.cartRoute),
+          child: const Icon(Icons.shopping_cart_outlined),
           backgroundColor: MyTheme.darkBulishColor,
         ),
         body: SafeArea(
           child: Container(
-            padding: Vx.m32,
+            padding: Vx.m24,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const CatalogHeader(),
                 if (CatalogModel.items != null &&
                     CatalogModel.items!.isNotEmpty)
-                  const CatalogList().py8().expand()
+                  const CatalogList().py12().expand()
                 else
                   const CircularProgressIndicator().centered().expand(),
               ],

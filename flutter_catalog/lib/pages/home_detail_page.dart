@@ -47,7 +47,7 @@ class HomeDetailpage extends StatelessWidget {
             ).h24(context),
             Expanded(
               child: VxArc(
-                height: 50.0,
+                height: 40.0,
                 arcType: VxArcType.CONVEY,
                 edge: VxEdge.TOP,
                 child: Container(
@@ -68,7 +68,7 @@ class HomeDetailpage extends StatelessWidget {
                             .text
                             .xl
                             .textStyle(context.captionStyle!)
-                            .make()
+                            .make(),
                       ],
                     ).p64()),
               ),

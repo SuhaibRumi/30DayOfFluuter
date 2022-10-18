@@ -8,18 +8,15 @@ class ItemWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Card(
       child: ListTile(
-        onTap: () {
-          print("${item.name} Pressed");
-        },
+        onTap: () {},
         leading: Image.network(item.image),
         title: Text(item.name),
         subtitle: Text(item.desc),
         trailing: Text(
           "\$${item.price}",
-          textScaleFactor: 1.5,
+          textScaleFactor: 1.3,
           style: const TextStyle(
             color: Colors.deepPurple,
             fontWeight: FontWeight.bold,
