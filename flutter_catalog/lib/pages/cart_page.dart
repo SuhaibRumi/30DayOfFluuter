@@ -45,7 +45,7 @@ class _CartTotal extends StatelessWidget {
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(12),
                           topRight: Radius.circular(12))),
-                  backgroundColor: Colors.green,
+                  backgroundColor: Colors.grey[800],
                   padding: const EdgeInsets.all(15),
                   content: "Buying not  supported yet ".richText.make()));
             },
